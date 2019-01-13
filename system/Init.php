@@ -11,5 +11,5 @@ $pdo = new PDO(
 require_once ABS_PATH . '/system/base.php';
 Base::$pdo = $pdo;
 
-require_once ABS_PATH . '/system/model.php';
+require_once ABS_PATH . '/system/Model.php';
 require_once ABS_PATH . '/system/controller.php';
